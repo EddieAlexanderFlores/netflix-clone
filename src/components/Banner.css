@@ -1,0 +1,94 @@
+.banner {
+    position: relative;
+    color: white;
+    object-fit: contain;
+    width: 100%;
+    height: 450px;
+}
+
+.banner-contents {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 35rem;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.banner-buttons {
+    padding-top: 2rem;
+}
+
+.banner-button {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.5vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.banner-button:hover {
+    background-color: gray;
+    color: white;
+    transition: all 0.2s;
+}
+
+.banner-description {
+    line-height: 1.5;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+}
+
+.banner-fade-bottom {
+    position: absolute;
+    width: 100%;
+    height: 7.5rem;
+    bottom: -1px;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37, 37, 37, 0.6),
+        rgb(42, 42, 42)
+    );
+}
+
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 350px;
+    }
+
+    .banner-contents {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+    
+    .banner-buttons {
+        padding-top: 1rem;
+    }
+
+    .banner-description {
+        font-size: 0.8rem;
+    }
+}

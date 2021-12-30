@@ -1,0 +1,8 @@
+* {
+  margin: 0px;
+}
+
+.app {
+  background-color: rgb(42, 42, 42);
+  min-width: 300px;
+}

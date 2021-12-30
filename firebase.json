@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "netflix-clone-eaflores1231",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

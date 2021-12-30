@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "netflix-clone-eaf",
+    "netflix-clone-eaf": "netflix-clone-eaf"
+  },
+  "targets": {}
+}
