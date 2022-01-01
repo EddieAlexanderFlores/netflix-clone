@@ -92,6 +92,11 @@ function Banner() {
         }
     }
 
+    const clearTrailerUrl = () => {
+        setTrailerUrl('');
+        setPlayButtonText("Play");
+    }
+
     return (
         <header className='banner'
             style={{
@@ -119,7 +124,13 @@ function Banner() {
 
             <div className='banner-fade-bottom' />
 
-            {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
+            {/* when we have trailer Url, then show youtube video */}
+            {trailerUrl && 
+                <div className='youtube-container'>
+                    <button className='youtube-close-button' onClick={() => clearTrailerUrl()}>Close</button>
+                    <YouTube videoId={trailerUrl} opts={opts} />
+                </div>
+            }
         </header>
     )
 }

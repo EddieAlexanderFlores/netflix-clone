@@ -111,10 +111,10 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
             {/* when we have trailer Url, then show youtube video */}
             {trailerUrl && 
-                <>
+                <div className='youtube-container'>
                     <button className='youtube-close-button' onClick={() => clearTrailerUrl()}>Close</button>
                     <YouTube videoId={trailerUrl} opts={opts} />
-                </>
+                </div>
             }
         </div>
     )
