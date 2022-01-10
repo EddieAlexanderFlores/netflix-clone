@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "netflix-clone-eaf",
-    "netflix-clone-eaf": "netflix-clone-eaf"
+    "netflix-clone-eaflores": "netflix-clone-eaflores",
+    "default": "netflix-clone-eaflores"
   },
   "targets": {}
 }

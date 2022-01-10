@@ -1,3 +1,21 @@
+# Netflix-Clone Web App
+
+This is my simple "Netflix-Clone" react.js web app. It does not have the full features of Netflix. Basically, my app plays a movie trailer when clicking/tapping on one of the movie items from the lists. It searches for a movie trailer from the YouTube database. The movie trailer pops up on your screen and it has the same features when playing a video on YouTube.
+
+Here is a list of the things I did in order to create this React.JS web app:
+
+- Created a new react project on VSCode
+- Installed the following packages to my react project:
+  - firebase-tools
+  - react-youtube
+  - movie-trailer
+- Created an account on TheMovieDB (TMDB)
+- Obtained a TMDB API key
+- Created a Project on Google's Firebase
+- Added Firebase Hosting to my web app
+- Deployed the web app to Firebase
+- Hosted web app online
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
